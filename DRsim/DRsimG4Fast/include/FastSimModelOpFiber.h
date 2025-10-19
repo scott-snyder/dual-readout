@@ -14,6 +14,9 @@ public:
                 G4int status = G4OpBoundaryProcessStatus::Undefined);
   ~FastFiberData() {}
 
+  FastFiberData(const FastFiberData&) = default;
+  FastFiberData& operator=(const FastFiberData&) = default;
+
   void reset();
 
   G4double GetAbsorptionNILL() { return mOpAbsorptionNumIntLenLeft; }
@@ -69,7 +72,6 @@ private:
   G4OpBoundaryProcess* pOpBoundaryProc;
   G4OpAbsorption* pOpAbsorption;
   G4OpWLS* pOpWLS;
-  G4Material* pCoreMaterial;
   G4bool fProcAssigned;
 
   FastFiberData mDataPrevious;
