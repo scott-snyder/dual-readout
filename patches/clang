@@ -1,0 +1,13 @@
+Bottom: eb33d4c9539ff29e73aaeed5296f8578df930dec
+Top:    eb33d4c9539ff29e73aaeed5296f8578df930dec
+Author: sss <sss@karma>
+Date:   2025-10-18 23:23:40 -0400
+
+Fix clang compilation warnings/errors.
+
+ - Missing override keywords.
+ - Explicitly declare copy/assignment as defaulted (implicit decls are
+   deprecated).
+ - Unused private data members.
+ - Move dtor for class with unique_ptr members out of line to avoid
+   a header dependency.
