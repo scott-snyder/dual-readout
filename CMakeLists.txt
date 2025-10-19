@@ -1,6 +1,9 @@
-cmake_minimum_required(VERSION 3.8 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
 cmake_policy(SET CMP0074 NEW)
 project(dual-readout LANGUAGES CXX)
+
+cmake_policy(SET CMP0144 NEW)
+cmake_policy(SET CMP0167 NEW)
 
 set(CMAKE_MODULE_PATH
     ${CMAKE_MODULE_PATH}
