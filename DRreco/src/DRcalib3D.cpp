@@ -21,6 +21,8 @@ DRcalib3D::DRcalib3D(const std::string& aName, ISvcLocator* aSvcLoc)
   pParamBase = nullptr;
 }
 
+DRcalib3D::~DRcalib3D() {}
+
 StatusCode DRcalib3D::initialize() {
   StatusCode sc = Gaudi::Algorithm::initialize();
 

@@ -34,7 +34,6 @@ private:
   void saveLeakage(G4Track* track, G4StepPoint* pre);
 
   unsigned int fPrevTower;
-  unsigned int fPrevFiber;
   int fPrevId;
 
   G4OpticalSurface* fFilterSurf;
