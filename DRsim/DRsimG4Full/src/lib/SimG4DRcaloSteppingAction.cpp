@@ -14,7 +14,7 @@
 namespace drc {
 
 SimG4DRcaloSteppingAction::SimG4DRcaloSteppingAction()
-    : G4UserSteppingAction(), fPrevTower(0), fPrevFiber(0), fPrevId(0) {
+    : G4UserSteppingAction(), fPrevTower(0), fPrevId(0) {
   // get static methods
   dd4hep::sim::Geant4GeometryInfo& info = dd4hep::sim::Geant4Mapping::instance().data();
   dd4hep::Detector& description = dd4hep::Detector::getInstance();

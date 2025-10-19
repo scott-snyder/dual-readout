@@ -19,7 +19,7 @@ class IGeoSvc;
 class DRcalib3D : public Gaudi::Algorithm {
 public:
   DRcalib3D(const std::string& name, ISvcLocator* svcLoc);
-  virtual ~DRcalib3D() {};
+  virtual ~DRcalib3D();
 
   StatusCode initialize();
   StatusCode execute(const EventContext&) const;
