@@ -24,6 +24,7 @@ target_link_libraries(
   DD4hep::DDG4
 )
 
+set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR})
 dd4hep_generate_rootmap(DRsensitive)
 
 install(TARGETS DRsensitive EXPORT DetectorTargets
