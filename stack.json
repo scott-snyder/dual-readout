@@ -1,10 +1,9 @@
 {
   "version": 5,
-  "prev": "2326d54c9229399f35b07e0cc453ad976b86f418",
-  "head": "742b365490c4c1f8399078c89a8277236e74a337",
+  "prev": "9af84ddd20cfa53de59a7bfcb9528454ca249718",
+  "head": "941975a5fdd39ec6dc9668137092c05251a97d10",
   "applied": [
-    "cmakewarn",
-    "refresh-temp"
+    "cmakewarn"
   ],
   "unapplied": [
     "clang",
@@ -16,13 +15,10 @@
       "oid": "1f2e0ec8a07cd2e2b801c0467bb489de5eeea32a"
     },
     "cmakewarn": {
-      "oid": "7119247d9b0fb7fe32bb89aa96f301ccbf1befaf"
+      "oid": "941975a5fdd39ec6dc9668137092c05251a97d10"
     },
     "danglewarn": {
       "oid": "db7fe9fe542902744507930dba5c02751d9ec1cc"
-    },
-    "refresh-temp": {
-      "oid": "742b365490c4c1f8399078c89a8277236e74a337"
     }
   }
 }
