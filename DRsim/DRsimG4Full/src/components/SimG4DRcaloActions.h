@@ -9,7 +9,7 @@
 
 #include "k4FWCore/DataHandle.h"
 #include "k4Interface/IGeoSvc.h"
-#include "k4Interface/ISimG4ActionTool.h"
+#include "SimG4Interface/ISimG4ActionTool.h"
 
 #include "SimG4DRcaloActionInitialization.h"
 

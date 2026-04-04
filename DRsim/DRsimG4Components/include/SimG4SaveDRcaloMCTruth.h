@@ -7,8 +7,8 @@
 
 #include "GaudiKernel/AlgTool.h"
 #include "k4FWCore/DataHandle.h"
-#include "k4Interface/ISimG4SaveOutputTool.h"
-#include "k4Interface/ISimG4Svc.h"
+#include "SimG4Interface/ISimG4SaveOutputTool.h"
+#include "SimG4Interface/ISimG4Svc.h"
 
 #include "SimG4DRcaloEventAction.h"
 

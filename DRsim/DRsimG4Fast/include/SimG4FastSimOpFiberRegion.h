@@ -11,7 +11,7 @@
 
 #include "GaudiKernel/AlgTool.h"
 #include "GaudiKernel/ToolHandle.h"
-#include "k4Interface/ISimG4RegionTool.h"
+#include "SimG4Interface/ISimG4RegionTool.h"
 
 // Geant
 class G4VFastSimulationModel;
