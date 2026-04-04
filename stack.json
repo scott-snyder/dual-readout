@@ -1,12 +1,11 @@
 {
   "version": 5,
-  "prev": "2b5b4d035de9b44ec78a32aebc44e314f525d3cc",
-  "head": "f1683afa418c623bdab4b2ea088ab6742f310d9d",
+  "prev": "fa0261aff484cfd79b9b53c9af87ea919563fed0",
+  "head": "c8b60016acffc882720f46901d4a6224cc5c2121",
   "applied": [
     "cmakewarn",
     "clang",
-    "headers",
-    "refresh-temp"
+    "headers"
   ],
   "unapplied": [],
   "hidden": [],
@@ -18,10 +17,7 @@
       "oid": "6564e7b5e21b116db22eb92e8d3b7a936b43d840"
     },
     "headers": {
-      "oid": "0e39adaf1f9edb8b5a203d135fd42bb2e97abf5a"
-    },
-    "refresh-temp": {
-      "oid": "f1683afa418c623bdab4b2ea088ab6742f310d9d"
+      "oid": "c8b60016acffc882720f46901d4a6224cc5c2121"
     }
   }
 }
