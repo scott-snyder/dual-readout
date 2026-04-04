@@ -10,7 +10,7 @@
 #include "GaudiKernel/AlgTool.h"
 #include "k4FWCore/DataHandle.h"
 #include "k4Interface/IGeoSvc.h"
-#include "k4Interface/ISimG4SaveOutputTool.h"
+#include "SimG4Interface/ISimG4SaveOutputTool.h"
 
 class IGeoSvc;
 
