@@ -22,6 +22,7 @@ target_link_libraries(
   DD4hep::DDCore
 )
 
+set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR})
 dd4hep_generate_rootmap(DRsegmentation)
 
 install(TARGETS DRsegmentation EXPORT DetectorTargets

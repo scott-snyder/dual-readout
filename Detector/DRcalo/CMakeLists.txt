@@ -4,6 +4,7 @@ file(GLOB headers
   ${PROJECT_SOURCE_DIR}/include/*.h
 )
 
+set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR})
 dd4hep_add_plugin(ddDRcalo SOURCES src/*.cpp USES
   DD4hep::DDCore
   DD4hep::DDCond
